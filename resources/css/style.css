@@ -109,16 +109,15 @@ nav span{
 }
 .locations{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  border: 2px solid green;
 }
 .places{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  margin: 15px 20px:
   width: 300px;
+  margin: 15px 10px:
+  border: 1px solid black;
   background-color: black;
 
 }
