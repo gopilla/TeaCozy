@@ -3,17 +3,24 @@ body{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
   opacity: 0.9;
   text-align: center;
+  background-color: black;
 
 }
 .header{
   display: inline-flex;
   justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  background-color: black;
+  margin: 0;
+  top: 0;
+  left: 0;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
+
 
 }
 .logo{
@@ -29,4 +36,24 @@ body{
  display: flex;
  justify-content: space-around;
  align-items: center;
+}
+.navbar a{
+  color: seashell;
+  text-decoration: underline;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+
+}
+.mission{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
 }
