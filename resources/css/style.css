@@ -107,10 +107,13 @@ nav span{
   height: 500px;
   background-image: url("../images/img-locations-background.jpg");
 }
+
 .locations{
   display: flex;
-  justify-content: space-around;
+  width: 980px;
+  justify-content: space-between;
   align-items: center;
+  margin: 15px 110px 0 110px;
 }
 .places{
   display: flex;
