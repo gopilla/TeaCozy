@@ -86,14 +86,10 @@ nav span{
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  border: 1px solid white;
-
-
-
 }
 .teas{
   display: block;
-  margin: 0 10px 10px 10px;
+  margin: 0 15px 15px 15px;
 }
 
 .teas img{
@@ -101,4 +97,7 @@ nav span{
   height: 200px;
   display: block;
   margin-bottom: 10px;
+}
+.teas span{
+  margin-top: 20 px;
 }
